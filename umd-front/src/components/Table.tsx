@@ -7,8 +7,8 @@ import FormPart from "./FormPart";
 import SecondForm from "./SecondForm";
 
 
-// Define User type
-interface User {
+
+/*interface User {
   id: number;
   name: string;
   username: string;
@@ -25,7 +25,7 @@ interface User {
     catchPhrase: string;
     bs: string;
   };
-}
+}*/
 
 /*interface FormPartProps {
   msg: User;
