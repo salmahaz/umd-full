@@ -1,30 +1,6 @@
 {
   "users": [
     {
-      "id": "9",
-      "name": "Glenna Reichert",
-      "username": "Delphine",
-      "email": "Chaim_McDermott@dana.io",
-      "address": {
-        "street": "Dayna Park",
-        "suite": "Suite 449",
-        "city": "Bartholomebury",
-        "zipcode": "76495-3109",
-        "geo": {
-          "lat": "24.6463",
-          "lng": "-168.8889"
-        }
-      },
-      "phone": "(775)976-6794 x41206",
-      "website": "conrad.com",
-      "company": {
-        "name": "Yost and Sons",
-        "catchPhrase": "Switchable contextually-based project",
-        "bs": "aggregate real-time technologies"
-      },
-      "createdAt": "2024-11-28T10:15:30.000Z"
-    },
-    {
       "id": "10",
       "name": "Clementina DuBuque",
       "username": "Moriah.Stanton",
@@ -39,14 +15,38 @@
           "lng": "57.2232"
         }
       },
-      "phone": "024-648-3804",
+      "phone": "024-648-38045055",
       "website": "ambrose.net",
       "company": {
-        "name": "Hoeger LLC",
+        "name": "Hoeger LLCoops",
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       },
-      "createdAt": "2024-11-22T10:15:30.000Z"
+      "createdAt": "2024-12-05T13:08:46.499Z"
+    },
+    {
+      "id": "101",
+      "name": "Salma Ali Hazimeh",
+      "username": "Maxime_Nienowrr",
+      "email": "salmahazimeh2018@gmail.com",
+      "address": {
+        "street": "B8-EE-65-33-FE-A2",
+        "suite": "salma",
+        "city": "j",
+        "zipcode": "155",
+        "geo": {
+          "lat": "155",
+          "lng": "155"
+        }
+      },
+      "phone": "76669458",
+      "website": "hahahaoops",
+      "company": {
+        "name": "Yost and Sons part oops",
+        "catchPhrase": "hahaha",
+        "bs": "oops"
+      },
+      "createdAt": "2024-12-05T13:09:04.820Z"
     }
   ]
 }

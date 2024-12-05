@@ -81,6 +81,7 @@ app.put('/users/:id', (req, res) => {
     const updatedUser = req.body;
 
     console.log("Received data:", req.body);
+   // const {username, email } = updatedUser;
 
     fs.readFile(usersFilePath, 'utf8', (err, data) => {
         if (err) {
@@ -94,9 +95,9 @@ app.put('/users/:id', (req, res) => {
                 const jsonData = JSON.parse(data); 
                 users = Array.isArray(jsonData.users) ? jsonData.users : []; 
                  
-                  userExists = users.some(
+               /*  const userExists = users.some(
                     (user) => user.username === username || user.email === email
-                );
+                );*/
 
             } catch (e) {
                 console.error("Error parsing JSON:", e);
