@@ -1,0 +1,40 @@
+/* Style the dropdown */
+select {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%; 
+  max-width: 300px; 
+  transition: all 0.3s ease;
+}
+
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #f8f9fa;
+}
+
+
+option {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+
+option:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+}
+
+
+option:first-child {
+  color: #888;
+  font-style: italic;
+}
